@@ -28,7 +28,12 @@ export default function Home() {
           <div className="video-background-content container h-100">
             <div className="d-flex h-100 text-center align-items-center">
               <div className="w-100 text-white">
-                <Image src="assets/img/logo.png" alt="logo" width={175} />
+                <Image
+                  src="/assets/img/logo.png"
+                  alt="logo"
+                  height={175}
+                  width={175}
+                />
                 <h1
                   className="display-4"
                   style={{
@@ -59,6 +64,7 @@ export default function Home() {
           </div>
         </div>
         <br />
+        <br />
 
         <div
           className="about-us"
@@ -84,7 +90,12 @@ export default function Home() {
             >
               <div className="col-md-4">
                 <div className="img" style={{ backgroundSize: "cover" }}>
-                  <Image src="assets/img/logo.png" alt="logo" height={260} />
+                  <Image
+                    src="/assets/img/logo.png"
+                    alt="logo"
+                    layout="fill"
+                    height={260}
+                  />
                 </div>
               </div>
               <div className="col-md-8">
@@ -165,9 +176,9 @@ export default function Home() {
               >
                 <div className="card_image">
                   <Image
-                    src="assets/img/printer1.jpg"
+                    src="/assets/img/printer1.jpg"
                     height={250}
-                    width={"auto"}
+                    layout="fill"
                     alt="printer1"
                     style={{ borderRadius: "2rem" }}
                   />
@@ -218,9 +229,9 @@ export default function Home() {
               >
                 <div className="card_image">
                   <Image
-                    src="assets/img/laser.jpg"
+                    src="/assets/img/laser.jpg"
                     height={250}
-                    width={"auto"}
+                    layout="fill"
                     alt="laser"
                     style={{ borderRadius: "2rem" }}
                   />
@@ -269,9 +280,9 @@ export default function Home() {
               >
                 <div className="card_image">
                   <Image
-                    src="assets/img/molding.jpg"
+                    src="/assets/img/molding.jpg"
                     height={250}
-                    width={"auto"}
+                    layout="fill"
                     alt="molding"
                     style={{ borderRadius: "2rem" }}
                   />
@@ -354,7 +365,7 @@ export default function Home() {
               <div className="carousel-inner" role="listbox">
                 <div className="carousel-item active">
                   <Image
-                    src="assets/img/shopbot.jpg"
+                    src="/assets/img/shopbot.jpg"
                     alt="w_shop_105_01"
                     height={350}
                     width={300}
@@ -425,7 +436,7 @@ export default function Home() {
                 </div>
                 <div className="carousel-item">
                   <Image
-                    src="assets/img/tro.jpg"
+                    src="/assets/img/tro.jpg"
                     alt="w_shop_105_02"
                     height={350}
                     width={300}
@@ -494,7 +505,7 @@ export default function Home() {
                 </div>
                 <div className="carousel-item">
                   <Image
-                    src="assets/img/mechantronika.jpg"
+                    src="/assets/img/mechantronika.jpg"
                     alt="w_shop_105_03"
                     height={350}
                     width={300}
@@ -601,13 +612,13 @@ export default function Home() {
               width: "700px",
             }}
           >
-            <Image src="assets/img/b3.jpg" alt="sample110" />
+            <Image src="/assets/img/b3.jpg" alt="sample110" layout="fill" />
             <figcaption>
               <h4> Work with us as a Volunteer</h4>
               <p style={{ color: "#fff" }}>
-                Get a chance to become a part of SFL and get work
-                experience.It is an opportunity to get free access to the
-                facilities provided by SFL.
+                Get a chance to become a part of SFL and get work experience.It
+                is an opportunity to get free access to the facilities provided
+                by SFL.
               </p>
             </figcaption>
             <a href="#"></a>
@@ -622,7 +633,7 @@ export default function Home() {
               width: "700px",
             }}
           >
-            <Image src="assets/img/b5.jpg" alt="sample110" />
+            <Image src="/assets/img/b5.jpg" alt="sample110" layout="fill" />
             <figcaption>
               <h4>Apply for Internships </h4>
               <p style={{ color: "#fff" }}>
@@ -642,7 +653,7 @@ export default function Home() {
               backgroundColor: "#f7dc49",
             }}
           >
-            <Image src="assets/img/sensor.jpg" alt="sample59" />
+            <Image src="/assets/img/sensor.jpg" alt="sample59" layout="fill" />
             <figcaption>
               <h4>Become a Member </h4>
               <p style={{ color: "#fff" }}>

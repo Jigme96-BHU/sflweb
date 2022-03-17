@@ -43,11 +43,13 @@ import "../public/assets/bootstrap/css/bootstrap.min.css";
 
 // header / footer
 import Header from "../view/header";
+import Footer from "../view/footer";
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
